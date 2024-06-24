@@ -1,6 +1,6 @@
 
-
-//CREATE ONE ORL FOR BOTH (POST AND PUT)
+//krishna shukla
+//CREATE ONE URL FOR BOTH (POST AND PUT)
 
 
 const express = require('express');
