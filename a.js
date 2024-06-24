@@ -22,9 +22,13 @@ app.put('/resource/:id', (req, res) => {
   res.status(200).json({ message: `Resource ${id} updated`, data });
 });
 
-app.listen(port, () => {
-  console.log(`Server running at http://localhost:${port}`);
-});
+// app.listen(port, () => {
+//   console.log(`Server running at http://localhost:${port}`);
+// });
+
+app.listen(3000)
+    console.log(`Server running at http://localhost:${port}`);
+ 
 
 //==================================================================================
 /*
